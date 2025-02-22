@@ -222,6 +222,8 @@ body {
   body {
     font-size: 18px;
     padding: 10px;
+    height: 100vh;
+    width: 100vw;
   }
   .home {
     display: flex;
@@ -229,7 +231,12 @@ body {
   }
   .home-content {
     /* background-color: orange; */
+    margin: 20px;
     width: 100%;
+  }
+
+  .home-content h1 {
+    font-size: 45px;
   }
   .home-content p {
     font-size: 15px;
