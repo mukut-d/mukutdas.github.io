@@ -217,3 +217,28 @@ body {
     opacity: 1;
   }
 }
+
+@media screen and (min-width: 100px) {
+  body {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+  .home-content {
+    /* background-color: orange; */
+    width: 100%;
+  }
+  .home-content p {
+    font-size: 15px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+  .home-img {
+    display: none;
+  }
+}
